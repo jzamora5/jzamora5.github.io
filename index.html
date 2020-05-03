@@ -2,18 +2,140 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jhoan Zamora</title>
-    <title>Bootstrap Landing Page Website Tutorial</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    <title>Jhoan Zamora</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link href="style.css" rel="stylesheet" />
-    
+    <link href="styles/style.css" rel="stylesheet">    
 </head>
 <body>
-    
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+                    <span class="sr-only">Toogle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <h1 class="name">Jhoan Stiven Zamora Caicedo</h1>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse-main">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about_me">About me</a></li>
+                    <li><a href="#stack_section">Stack</a></li>
+                    <li><a href="#blogs_section">Blogs</a></li>
+                    <li><a href="#footer_section">Contact me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="about_me">
+        <div class="landing-text">
+            <br>
+            <img id="photo_me" class="img-fluid img-thumbnail" src="img/photo.jpg" alt="Photo">
+            <h1>About Me</h1>
+            <p class="lead p_me">
+                I am a Full Stack Software Engineer with experience in different development projects such as:
+            </p>
+            <br>
+            <div class="me">
+                <ul class="lead me_list">
+                    <li>High Level Web Development with Python, Flask, RESTful API and JavaScript</li>
+                    <li>Dev Ops with Puppet, Fabric, HaProxy and Nginx</li>
+                    <li>Low Level Programming in C and Bash</li>
+                    <li>Database Management with SQL and ORM</li>
+                    <li>Versioning Control with Git</li>
+                </ul>
+            </div>
+            <br>
+            <p class="lead p_me">
+                In addition to this, I am a Sound Engineer with experience and extensive knowledge in 
+                Audio and Video Software and Hardware. I am passionate about technology, learning, and 
+                improving myself on a daily bases. I work great in teams and adapt easily to new environments. 
+            </p>
+            <br>
+            </div>
+        </div>
+    </div>
+
+    <div class="padding_1" id="stack_section">
+        <div class="container">
+            <div class="row">
+                <h2 id="stack_title">Stack</h2>
+                <div class="col-sm-6 text-center">
+                    <h2>Programming Languages</h2>
+                    <img src="img/C.jpg" alt="C" height="115" width="100">
+                    <img src="img/Python.png" alt="Python" height="100" width="100">
+                    <img src="img/Javascript.png" alt="Javascript" height="100" width="100">
+                </div>
+                <div class="col-sm-6 text-center">
+                    <h2>Front-End</h2>
+                    <img src="img/Html_css.jpg" alt="HTML_CSS" height="140" width="200">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="padding_2">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    <h2>Back-End</h2>
+                    <img src="img/Flask.png" alt="Flask" height="100" width="150">
+                    <img src="img/Mysql.png" alt="MySQL" height="80" width="150">
+                </div>
+                <div class="col-sm-6 text-center">
+                    <h2>Data Analysis and Prototyping</h2>
+                    <img src="img/Matlab.png" alt="Matlab" height="100" width="100">
+                    <img src="img/Arduino.png" alt="Arudino" height="140" width="140">
+                    <img src="img/Pi.png" alt="RaspberryPi" height="115" width="130">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="padding_3" id="blogs_section">
+        <hr>
+        <div class="container blog_container">
+            <div class="row">
+                <h2>Blogs</h2>
+                <br>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-cs-12 blog_tweet">
+                    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I just published What happens when you type a URL in your browser and press enter <a href="https://t.co/Jkf0XvXuJn">https://t.co/Jkf0XvXuJn</a></p>&mdash; Jhoan Zamora (@JhoanZamora10) <a href="https://twitter.com/JhoanZamora10/status/1248703273210609664?ref_src=twsrc%5Etfw">April 10, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-cs-12 blog_tweet">
+                    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I just published Machine Learning for Newbies <a href="https://t.co/vbX1ZSpmFp">https://t.co/vbX1ZSpmFp</a></p>&mdash; Jhoan Zamora (@JhoanZamora10) <a href="https://twitter.com/JhoanZamora10/status/1219814029792829440?ref_src=twsrc%5Etfw">January 22, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-cs-12 blog_tweet">
+                    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I just published Python3: Mutable, Immutable… everything is object! <a href="https://t.co/oCEnwtyqZW">https://t.co/oCEnwtyqZW</a></p>&mdash; Jhoan Zamora (@JhoanZamora10) <a href="https://twitter.com/JhoanZamora10/status/1217586631315808256?ref_src=twsrc%5Etfw">January 15, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-cs-12 blog_tweet">
+                    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I just published C Static Libraries <a href="https://t.co/BuWinNovOI">https://t.co/BuWinNovOI</a></p>&mdash; Jhoan Zamora (@JhoanZamora10) <a href="https://twitter.com/JhoanZamora10/status/1182760929651507206?ref_src=twsrc%5Etfw">October 11, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid text-center" id="footer_section">
+        <div class="row">
+            <div class="col-sm-6">
+                <h3>Contact Me</h3>
+                <br>
+                <h4>Email: jzamora_5@yahoo.com</h4>
+            </div>
+            <div class="col-sm-6">
+                <h3>Connect</h3>
+                <a href="https://twitter.com/JhoanZamora10" class="fa fa-twitter" target="_blank"></a>
+                <a href="https://github.com/jzamora5" class="fa fa-github" target="_blank"></a>
+                <a href="https://www.linkedin.com/in/jhoan-stiven-zamora-caicedo-a49033158/" class="fa fa-linkedin" target="_blank"></a>
+                <a href="https://medium.com/@1206_90373" class="fa fa-medium" target="_blank"></a>
+            </div>
+        </div>
+    </footer>   
+
 </body>
 </html>

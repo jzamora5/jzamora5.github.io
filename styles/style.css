@@ -1,0 +1,186 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #23415C;
+    padding: 1% 1%;
+    font-size: 1.3em;
+    color: snow;
+}
+
+.name {
+    font-size: 1.8em;
+    min-height: 50px;
+    padding: 0 10px 5px;
+}
+
+.navbar-default .navbar-nav li a {
+    color: rgb(194, 194, 194);
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+
+/* About Me */
+
+#about_me {
+    background: url(../img/Background.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative; 
+    width: 100%;
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+
+.landing-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: snow;
+}
+.landing-text h1{
+    font-size: 400%;
+    font-weight: 500%;
+}
+
+#photo_me {
+    margin-top: 50px;
+    height: 300px;
+    width: 230px;
+    border-radius: 75%;
+}
+
+.p_me {
+    margin: 0 20% 0 25%;
+    text-align: left;
+    font-size: 180%;
+}
+
+.me {
+    margin: 0 25%;
+    text-align: left;
+    font-size: 180%;
+}
+
+.me_list {
+    text-align: left;
+    margin: 0 5%;
+}
+
+/* Stack */
+
+.padding_1 h2, .padding_2 h2, .padding_3 h2 {
+    font-weight: 500;
+}
+
+#stack_title {
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 5%;
+}
+
+.padding_1 {
+    padding-top: 30px;
+    border-top:70px solid #fff;
+}
+
+.padding_2 {
+    padding-bottom: 0px;
+}
+
+.padding_3 {
+    padding: 10px 0 30px 0;
+}
+
+.padding_1 img, .padding_2 img, .padding_3 img {
+    margin: 10px;
+}
+
+/* Blogs */
+
+#blogs_section {
+    padding-top: 2%;
+    padding-bottom: 4%;
+    border-top: 40px solid #fff;
+}
+
+#blogs_section h2 {
+    text-align: center;
+    font-weight: 800;
+}
+
+.blog_tweet {
+    height: 500px;
+}
+
+
+/* Footer */
+
+footer {
+    width: 100%;
+    background-color: #23415C;
+    padding: 5% 5% 8% 5%;
+    color: snow;
+}
+
+.fa {
+    padding: 18px;
+    font-size: 28px;
+    color: snow;
+}
+
+.fa:hover {
+    color: rgb(194, 194, 194);
+    text-decoration: none;
+}
+
+@media (max-width: 822px) {
+    #about_me {
+        padding-top: 15%;
+    }
+}
+@media (max-width: 768px) {
+    #about_me {
+        padding-top: 15%;
+    }
+    .landing-text h1 {
+        font-size: 300%;
+    }
+    .landing-text p {
+        font-size: 150%;
+    }
+    .landing-text ul {
+        font-size: 70%;
+    }
+    .blog_tweet {
+        height: auto;
+        margin: 5% 25%;
+    }
+    .fa {
+        padding: 12px;
+        font-size: 25px;
+    }
+    footer h4 {
+        padding-bottom: 15px;
+    }
+}
+
+@media (max-width: 462px) {
+    .blog_tweet {
+        margin: 5% 20%;
+    }
+}
+
+@media (max-width: 380px) {
+    #about_me {
+        padding-top: 20%;
+    }
+}
