@@ -10,41 +10,58 @@
     <title>Jhoan Zamora</title>
     <link
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
     <link href="styles/style.css" rel="stylesheet" />
   </head>
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button
-            type="button"
-            class="navbar-toggle"
-            data-toggle="collapse"
-            data-target="#navbar-collapse-main"
-          >
-            <span class="sr-only">Toogle Navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <h1 class="name">Jhoan Stiven Zamora Caicedo</h1>
-        </div>
-        <div class="collapse navbar-collapse" id="navbar-collapse-main">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <a class="navbar-brand text-light" href="#"
+        >Jhoan Stiven Zamora Caicedo</a
+      >
+      <button
+        class="navbar-toggler bg-light"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#about_me">About me</a></li>
-            <li><a href="#stack_section">Stack</a></li>
-            <li><a href="#blogs_section">Blogs</a></li>
-            <li><a href="#footer_section">Contact me</a></li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#about_me">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#stack_section">Stack</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#blogs_section">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#portfolio_section"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#footer_section"
+                >Contact me</a
+              >
+            </li>
           </ul>
-        </div>
+        </ul>
       </div>
     </nav>
 
@@ -103,9 +120,9 @@
 
     <div class="padding_1" id="stack_section">
       <div class="container">
-        <div class="row">
-          <h2 id="stack_title">Stack</h2>
-          <div class="col-sm-6 text-center">
+        <h2 id="stack_title">Stack</h2>
+        <div class="row mb-sm-0 mb-md-5">
+          <div class="col-sm-12 col-md-6 text-center p-0 mb-sm-5 mb-md-0">
             <h2>Programming Languages</h2>
             <img src="img/C.jpg" alt="C" height="115" width="100" />
             <img src="img/Python.png" alt="Python" height="100" width="100" />
@@ -116,13 +133,20 @@
               width="100"
             />
           </div>
-          <div class="col-sm-6 text-center">
+          <div class="col-sm-12 col-md-6 text-center p-0 mb-sm-5 mb-md-0">
             <h2>Front-End</h2>
             <img
               src="img/Html_css.jpg"
               alt="HTML_CSS"
               height="140"
               width="200"
+            />
+            <img src="img/React.png" alt="React" height="115" width="125" />
+            <img
+              src="img/Bootstrap.png"
+              alt="Bootstrap"
+              height="110"
+              width="130"
             />
           </div>
         </div>
@@ -131,12 +155,16 @@
     <div class="padding_2">
       <div class="container">
         <div class="row">
-          <div class="col-sm-6 text-center">
+          <div class="col-sm-12 col-md-6 text-center p-0 mb-sm-5 mb-md-0">
             <h2>Back-End</h2>
             <img src="img/Flask.png" alt="Flask" height="100" width="150" />
             <img src="img/Mysql.png" alt="MySQL" height="80" width="150" />
+            <img src="img/MongoDB.png" alt="MongoDB" height="100" width="100" />
+            <img src="img/Redis.png" alt="Redis" height="120" width="120" />
+            <img src="img/Node.png" alt="Node" height="120" width="108" />
+            <img src="img/Express.png" alt="Express" height="115" width="260" />
           </div>
-          <div class="col-sm-6 text-center">
+          <div class="col-sm-12 col-md-6 text-center p-0 mb-sm-5 mb-md-0">
             <h2>Data Analysis and Prototyping</h2>
             <img src="img/Matlab.png" alt="Matlab" height="100" width="100" />
             <img src="img/Arduino.png" alt="Arudino" height="140" width="140" />
@@ -149,10 +177,12 @@
     <div class="padding_3" id="blogs_section">
       <hr />
       <div class="container blog_container">
+        <h2>Blogs</h2>
         <div class="row">
-          <h2>Blogs</h2>
           <br />
-          <div class="col-lg-3 col-md-3 col-sm-6 col-cs-12 blog_tweet">
+          <div
+            class="col-lg-3 col-md-6 col-sm-6 col-cs-12 d-flex justify-content-center blog_tweet"
+          >
             <blockquote class="twitter-tweet">
               <p lang="en" dir="ltr">
                 I just published What happens when you type a URL in your
@@ -171,7 +201,7 @@
               charset="utf-8"
             ></script>
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 col-cs-12 blog_tweet">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-cs-12 blog_tweet">
             <blockquote class="twitter-tweet">
               <p lang="en" dir="ltr">
                 I just published Machine Learning for Newbies
@@ -189,7 +219,7 @@
               charset="utf-8"
             ></script>
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 col-cs-12 blog_tweet">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-cs-12 blog_tweet">
             <blockquote class="twitter-tweet">
               <p lang="en" dir="ltr">
                 I just published Python3: Mutable, Immutable… everything is
@@ -208,7 +238,7 @@
               charset="utf-8"
             ></script>
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 col-cs-12 blog_tweet">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-cs-12 blog_tweet">
             <blockquote class="twitter-tweet">
               <p lang="en" dir="ltr">
                 I just published C Static Libraries
@@ -225,6 +255,98 @@
               src="https://platform.twitter.com/widgets.js"
               charset="utf-8"
             ></script>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="padding_4" id="portfolio_section">
+      <hr />
+      <div class="container portfolio_container">
+        <h2>Portfolio</h2>
+        <div class="row mt-5">
+          <br />
+          <div
+            class="col-12 col-lg-6 d-flex justify-content-center mb-3 portfolio_project"
+          >
+            <div class="card" style="width: 30rem; height: 32rem">
+              <img
+                class="card-img-top"
+                src="./img/scralaw.png"
+                alt="airbnb"
+                width="480"
+                height="310"
+                class="mx-auto"
+              />
+              <div class="card-body">
+                <h5 class="card-title">ScraLaw</h5>
+                <p class="card-text">
+                  A Web Scraping application for Colombian legal cases deployed
+                  in AWS with a Frontend in React and a Backend in Python with
+                  DynamoDB.
+                </p>
+                <a
+                  href="https://github.com/jzamora5/ScraLaw_API/blob/master/README.md"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >Repository</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-lg-6 d-flex justify-content-center mb-3 portfolio_project"
+          >
+            <div class="card" style="width: 30rem; height: 32rem">
+              <img
+                src="./img/file_manager.PNG"
+                alt="file_manager"
+                width="310"
+                height="310"
+                class="mx-auto"
+              />
+              <div class="card-body">
+                <h5 class="card-title">HB File Manager</h5>
+                <p class="card-text">
+                  A file management backend system with NodeJS + Express,
+                  MongoDB, and Redis.
+                </p>
+                <a
+                  href="https://github.com/jzamora5/holbertonschool-files_manager/blob/main/README.md"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >Repository</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div
+            class="col-12 col-lg-6 offset-0 offset-lg-3 d-flex justify-content-center portfolio_project"
+          >
+            <div class="card" style="width: 30rem; height: 30rem">
+              <img
+                src="./img/airbnb.jpg"
+                alt="airbnb"
+                width="445"
+                height="400"
+                class="mx-auto img-fluid"
+              />
+              <div class="card-body">
+                <h5 class="card-title">AirBnB Clone</h5>
+                <p class="card-text">
+                  A basic AirBnB Clone with Dynamic Frontend using HTML, CSS,
+                  and JavaScript, and a backend in Python with Flask.
+                </p>
+                <a
+                  href="https://github.com/jzamora5/AirBnB_clone_v4/blob/master/README.md"
+                  class="btn btn-primary"
+                  target="_blank"
+                  >Repository</a
+                >
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -262,5 +384,16 @@
         </div>
       </div>
     </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
